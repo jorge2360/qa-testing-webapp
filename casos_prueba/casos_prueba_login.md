@@ -11,8 +11,8 @@
 | Datos de prueba | correo válido y contraseña válida |
 | Pasos | 1. Ingresar al login. 2. Escribir correo. 3. Escribir contraseña. 4. Presionar ingresar. |
 | Resultado esperado | El sistema debe permitir el acceso y redirigir al dashboard. |
-| Resultado obtenido | Pendiente |
-| Estado | Pendiente |
+| Resultado obtenido | El sistema permite el acceso y redirige al dashboard' |
+| Estado | Exitoso |
 
 ---
 
@@ -27,8 +27,8 @@
 | Datos de prueba | correo válido y contraseña incorrecta |
 | Pasos | 1. Ingresar al login. 2. Escribir credenciales incorrectas. 3. Presionar ingresar. |
 | Resultado esperado | El sistema debe mostrar mensaje de error y no permitir acceso. |
-| Resultado obtenido | Pendiente |
-| Estado | Pendiente |
+| Resultado obtenido | El sistema mostró mensaje de error y no permitió el acceso |
+| Estado | Exitoso |
 
 ---
 
@@ -43,5 +43,5 @@
 | Datos de prueba | campos vacíos |
 | Pasos | 1. Ingresar al login. 2. Presionar ingresar sin completar campos. |
 | Resultado esperado | El sistema debe solicitar completar los campos obligatorios. |
-| Resultado obtenido | Pendiente |
-| Estado | Pendiente |
+| Resultado obtenido | El sistema solicitó completar los campos obligatorios |
+| Estado | Exitoso |
