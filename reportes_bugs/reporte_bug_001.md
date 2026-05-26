@@ -28,7 +28,7 @@
 | Precondición | Usuario registrado |
 | Datos de prueba | correo y contraseña válidos |
 | Resultado esperado | El sistema debe devolver usuario autenticado y token. |
-| Estado | Pendiente |
+| Estado | Exitoso |
 
 ---
 
@@ -44,7 +44,7 @@
 | Precondición | No enviar token |
 | Datos de prueba | Sin header Authorization |
 | Resultado esperado | El sistema debe denegar acceso con código 401. |
-| Estado | Pendiente |
+| Estado | Exitoso |
 
 ---
 
@@ -60,7 +60,7 @@
 | Precondición | Usuario autenticado |
 | Datos de prueba | Header Authorization Bearer Token |
 | Resultado esperado | El sistema debe devolver listado de tareas del usuario autenticado. |
-| Estado | Pendiente |
+| Estado | Exitoso |
 
 ---
 
@@ -76,7 +76,7 @@
 | Precondición | Usuario autenticado |
 | Datos de prueba | título, descripción, prioridad, estado |
 | Resultado esperado | El sistema debe crear la tarea y devolver respuesta exitosa. |
-| Estado | Pendiente |
+| Estado | Exitoso |
 
 ---
 
@@ -92,4 +92,4 @@
 | Precondición | Usuario autenticado |
 | Datos de prueba | request sin título |
 | Resultado esperado | El sistema debe devolver error de validación 422. |
-| Estado | Pendiente |
+| Estado | Exitoso |
