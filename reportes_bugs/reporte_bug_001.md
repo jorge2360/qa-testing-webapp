@@ -12,7 +12,7 @@
 | Precondición | El correo no debe estar registrado |
 | Datos de prueba | nombre, correo, contraseña y confirmación |
 | Resultado esperado | El sistema debe registrar el usuario y devolver token de autenticación. |
-| Estado | Pendiente |
+| Estado | Exitoso |
 
 ---
 
