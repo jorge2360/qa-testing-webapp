@@ -11,8 +11,8 @@
 | Datos de prueba | título, descripción, prioridad, estado y fecha |
 | Pasos | 1. Iniciar sesión. 2. Ir al dashboard. 3. Completar formulario de tarea. 4. Presionar guardar. |
 | Resultado esperado | La tarea debe registrarse y mostrarse en el listado. |
-| Resultado obtenido | Pendiente |
-| Estado | Pendiente |
+| Resultado obtenido | La tarea se registra y muestra en el listado. |
+| Estado | Exitoso |
 
 ---
 
@@ -27,8 +27,8 @@
 | Datos de prueba | nueva descripción, prioridad o estado |
 | Pasos | 1. Seleccionar una tarea. 2. Presionar editar. 3. Modificar datos. 4. Guardar cambios. |
 | Resultado esperado | La tarea debe actualizarse correctamente. |
-| Resultado obtenido | Pendiente |
-| Estado | Pendiente |
+| Resultado obtenido | La tarea se actualiza correctamente. |
+| Estado | Exitoso |
 
 ---
 
@@ -43,8 +43,8 @@
 | Datos de prueba | tarea registrada |
 | Pasos | 1. Seleccionar una tarea. 2. Presionar eliminar. 3. Confirmar eliminación. |
 | Resultado esperado | La tarea debe eliminarse del listado. |
-| Resultado obtenido | Pendiente |
-| Estado | Pendiente |
+| Resultado obtenido | La tarea se elimina del listado. |
+| Estado | Exitoso |
 
 ---
 
@@ -59,8 +59,8 @@
 | Datos de prueba | texto contenido en título o descripción |
 | Pasos | 1. Ingresar texto en buscador. 2. Revisar resultados filtrados. |
 | Resultado esperado | El sistema debe mostrar únicamente tareas coincidentes. |
-| Resultado obtenido | Pendiente |
-| Estado | Pendiente |
+| Resultado obtenido | El sistema muestra únicamente tareas coincidentes. |
+| Estado | Exitoso |
 
 ---
 
@@ -75,5 +75,5 @@
 | Datos de prueba | estado pendiente, completada, prioridad alta, media o baja |
 | Pasos | 1. Seleccionar filtro de estado. 2. Seleccionar filtro de prioridad. 3. Revisar resultados. |
 | Resultado esperado | El sistema debe mostrar tareas que coincidan con los filtros aplicados. |
-| Resultado obtenido | Pendiente |
-| Estado | Pendiente |
+| Resultado obtenido | El sistema muestra tareas que coinciden con los filtros aplicados. |
+| Estado | Exitoso |
